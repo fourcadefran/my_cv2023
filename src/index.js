@@ -4,11 +4,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import ResponsiveAppBar from "./components/Navbar.tsx";
+import Home from "./components/Home.tsx";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
       <ResponsiveAppBar/>
+      <Home/>
     <App />
   </React.StrictMode>
 );
